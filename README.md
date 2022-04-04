@@ -15,6 +15,7 @@ INSTALLATION
       sudo apt install gamescope
 
 INFO
+
 Gamescope allows to find the best performance/quality ratio:
 - Fsr
 - Integer upscaling
