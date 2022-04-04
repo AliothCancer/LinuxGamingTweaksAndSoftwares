@@ -20,6 +20,7 @@ Gamescope allows to find the best performance/quality ratio:
 ____________________________________________________________________________________________________
 # KERNEL
 
+
 TWEAKS
 Kernel can improve performance:
 - Low latency kernel: Can improve input lag 
