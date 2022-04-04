@@ -8,10 +8,11 @@ ________________________________________________________________________________
 
   INFO
 
-    On ubuntu:
+  On ubuntu:
+  
       sudo add-apt-repository ppa:ar-lex/gamescope
-    sudo apt-get update
-    sudo apt install gamescope
+      sudo apt-get update
+      sudo apt install gamescope
 
   Gamescope allows to find the best performance/quality ratio:
     - Fsr
