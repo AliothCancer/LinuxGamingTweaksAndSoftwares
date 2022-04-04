@@ -24,6 +24,7 @@ TWEAKS
 - Low latency kernel: Can improve input lag 
 - Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
 - Cpu scheduler: There are cpu scheduler which can boost fps like PDS
+
 *You can easily compile a kernel following https://github.com/Frogging-Family/linux-tkg readme
 
 
