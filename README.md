@@ -6,6 +6,7 @@ A collection of tweaks and softwares which provide better performance and better
 ____________________________________________________________________________________________________
 # GAMESCOPE
 
+INFO
 As far as i know there are two generic ways to get it:
   - Flatpak: You need steam flatpak version (it is very bad if you have game on external drives)
   - Compiling it from source: It's not simple, you have to solve dependencies on your own.
@@ -20,7 +21,7 @@ Gamescope allows to find the best performance/quality ratio:
 ____________________________________________________________________________________________________
 # KERNEL
 
-TWEAKS
+INFO
 - Low latency kernel: Can improve input lag 
 
 - Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
@@ -29,6 +30,12 @@ TWEAKS
 - Cpu scheduler: There are cpu schedulers which can boost fps like PDS
 
 *You can easily compile a kernel with a cpu-scheduler of your choice following https://github.com/Frogging-Family/linux-tkg readme
+
+
+
+TWEAKS
+
+...
 
 
 
@@ -61,8 +68,8 @@ TWEAKS
 
 - Use fsr: WINE_FULLSCREEN_FSR=1
 - Set fsr strenght: WINE_FULLSCREEN_STR= integer number from 1 to 5
-
-
+* Example on steam launch options: WINE_FULLSCREEN_FSR=1 %command%
+* If there's a wrong letter the game won't start
 
 SOFTWARES
 - Proton GE latest
