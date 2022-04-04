@@ -6,7 +6,7 @@ A collection of tweaks and softwares which provide better performance and better
 ____________________________________________________________________________________________________
 # GAMESCOPE
 
-  INFO
+INSTALLATION
 
   On ubuntu:
   
@@ -14,6 +14,7 @@ ________________________________________________________________________________
       sudo apt-get update
       sudo apt install gamescope
 
+INFO
 Gamescope allows to find the best performance/quality ratio:
 - Fsr
 - Integer upscaling
