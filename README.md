@@ -72,18 +72,27 @@ ________________________________________________________________________________
 
 TWEAKS
 
-RADV_PERFTEST=aco            //this is default from mesa version 20+
-RADV_FORCE_VRS=2x2           //Variable rate shading. This will improve performance, but reduce quality of shadows. Alternative values: 2x1 or 1x2 to use VRS only in one (x or y) direction[4]. (TODO: which is which?)
-RADV_PERFTEST=sam            //Force enable resizable bar/smart access memory. Might improve, but might as well reduce performance.
-RADV_DEBUG=novrsflatshading  //disable VRS for flat shading (only on GFX10.3+)
-RADV_PERFTEST=nggc           //enable NGGC. Can slightly improve performance on RX6000 series, but may reduce performance for other cards. Very low impact (see: https://www.phoronix.com/scan.php?page=article&item=radeon-radv-nggc&num=3 )
+RADV_PERFTEST=aco
+*this is default from mesa version 20+
+
+RADV_FORCE_VRS=2x2
+*Variable rate shading. This will improve performance, but reduce quality of shadows. Alternative values: 2x1 or 1x2 to use VRS only in one (x or y) direction[4]. (TODO: which is which?)
+
+RADV_PERFTEST=sam
+*Force enable resizable bar/smart access memory. Might improve, but might as well reduce performance.
+
+RADV_DEBUG=novrsflatshading
+*Disable VRS for flat shading (only on GFX10.3+)
+
+RADV_PERFTEST=nggc
+*Enable NGGC. Can slightly improve performance on RX6000 series, but may reduce performance for other cards. Very low impact (see: https://www.phoronix.com/scan.php?page=article&item=radeon-radv-nggc&num=3 )
 
 *You may find more here: https://docs.mesa3d.org/envvars.html
 
 
-SOFTWARES
 
-...
+SOFTWARES
+-...
 
 ____________________________________________________________________________________________________
 # STARTING GAMES IN A SEPARATE GRAPHIC SERVER FOR GAME WINDOW (arch wiki)
