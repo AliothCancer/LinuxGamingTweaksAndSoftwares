@@ -7,6 +7,7 @@ ________________________________________________________________________________
 # GAMESCOPE
 
 INFO
+
 As far as i know there are two generic ways to get it:
   - Flatpak: You need steam flatpak version (it is very bad if you have game on external drives)
   - Compiling it from source: It's not simple, you have to solve dependencies on your own.
@@ -80,7 +81,9 @@ SOFTWARES
 ____________________________________________________________________________________________________
 # AMDVLK or RADV
 
-*radv is able to use ACO and NGGC
+INFO
+
+radv is able to use ACO and NGGC
 
 
 TWEAKS for radv
