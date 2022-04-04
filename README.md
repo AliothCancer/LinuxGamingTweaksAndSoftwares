@@ -31,6 +31,7 @@ TWEAKS
 *You can easily compile a kernel with a cpu-scheduler of your choice following https://github.com/Frogging-Family/linux-tkg readme
 
 
+
 SOFTWARES
 
 ...
@@ -46,6 +47,7 @@ ________________________________________________________________________________
 
 TWEAKS
 - Bios settings
+
 
 
 SOFTWARES
