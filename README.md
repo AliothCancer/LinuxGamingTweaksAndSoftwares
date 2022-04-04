@@ -87,7 +87,7 @@ INFO
 - radv is able to use ACO and NGGC
 
 
-TWEAKS for radv
+TWEAKS for radv https://linux-gaming.kwindu.eu/index.php?title=Improving_performance#AMD
 
 - RADV_PERFTEST=aco
 
