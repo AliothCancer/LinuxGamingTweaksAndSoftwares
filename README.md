@@ -53,11 +53,8 @@ ________________________________________________________________________________
 
 TWEAKS
 
-// Use fsr
-WINE_FULLSCREEN_FSR=1
-
-// Set fsr strenght
-WINE_FULLSCREEN_STR= integer number from 1 to 5
+- Use fsr: WINE_FULLSCREEN_FSR=1
+- Set fsr strenght: WINE_FULLSCREEN_STR= integer number from 1 to 5
 
 
 
