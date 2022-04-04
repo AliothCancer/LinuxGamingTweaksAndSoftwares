@@ -107,7 +107,7 @@ TWEAKS for radv https://linux-gaming.kwindu.eu/index.php?title=Improving_perform
 
 - RADV_PERFTEST=nggc
 
-*Enable NGGC. Can slightly improve performance on RX6000 series, but may reduce performance for other cards. Very low impact (see: https://www.phoronix.com/scan.php?page=article&item=radeon-radv-nggc&num=3 )
+*Enable NGGC. Can slightly improve performance on RX6000 series, but may reduce performance for other cards (see: https://www.phoronix.com/scan.php?page=article&item=radeon-radv-nggc&num=3 )
 
 *You may find more here: https://docs.mesa3d.org/envvars.html
 
