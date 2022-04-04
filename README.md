@@ -4,7 +4,8 @@ A collection of tweaks and softwares which provide better performance and better
 
 
 ____________________________________________________________________________________________________
-#GAMESCOPE 
+# GAMESCOPE
+
 As far as i know there are two generic ways to get it:
   - Flatpak: You need steam flatpak version (it is very bad if you have game on external drives)
   - Compiling it from source: It's not simple, you have to solve dependencies on your own.
@@ -17,7 +18,7 @@ Gamescope allows to find the best performance/quality ratio:
 
 
 ____________________________________________________________________________________________________
-#KERNEL
+# KERNEL
 
 TWEAKS
 Kernel can improve performance:
@@ -31,12 +32,13 @@ SOFTWARES
 ...
 
 ____________________________________________________________________________________________________
-#MESA VERSION
+# MESA VERSION
+
 Latest version on newer hardware
 
 
 ____________________________________________________________________________________________________
-#TDP
+# TDP
 
 TWEAKS
 - Bios settings
@@ -47,9 +49,10 @@ SOFTWARES
 
 
 ____________________________________________________________________________________________________
-#PROTON/WINE
+# PROTON/WINE
 
 TWEAKS
+
 // Use fsr
 WINE_FULLSCREEN_FSR=1
 
@@ -65,11 +68,13 @@ SOFTWARES
 
 
 ____________________________________________________________________________________________________
-#AMDVLK or RADV
+# AMDVLK or RADV
+
 *radv is able to use ACO and NGGC
 
 
 TWEAKS
+
 RADV_PERFTEST=aco            //this is default from mesa version 20+
 RADV_FORCE_VRS=2x2           //Variable rate shading. This will improve performance, but reduce quality of shadows. Alternative values: 2x1 or 1x2 to use VRS only in one (x or y) direction[4]. (TODO: which is which?)
 RADV_PERFTEST=sam            //Force enable resizable bar/smart access memory. Might improve, but might as well reduce performance.
@@ -80,6 +85,7 @@ RADV_PERFTEST=nggc           //enable NGGC. Can slightly improve performance on 
 
 
 SOFTWARES
+
 ...
 
 ____________________________________________________________________________________________________
