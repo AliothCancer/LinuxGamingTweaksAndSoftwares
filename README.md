@@ -8,10 +8,10 @@ ________________________________________________________________________________
 
 INFO
 
-As far as i know there are two generic ways to get it:
-  - Flatpak: You need steam flatpak version (it is very bad if you have game on external drives)
-  - Compiling it from source: It's not simple, you have to solve dependencies on your own.
-*On arch linux there's the AUR package which compile it automaticallly ( i've never tried it )
+On ubuntu:
+  sudo add-apt-repository ppa:ar-lex/gamescope
+  sudo apt-get update
+  sudo apt install gamescope
 
 Gamescope allows to find the best performance/quality ratio:
 - Fsr
