@@ -1,0 +1,57 @@
+#GAMESCOPE
+Fsr
+Integer upscaling
+Fps limiter
+
+
+
+#KERNEL
+Latest stable version
+Low latency kernel 
+Fsync patches
+Best gaming scheduler PDS,CFS,MuQss etc...
+
+
+
+#MESA VERSION
+Latest version on newer hardware
+
+
+
+#TDP
+Bios settings
+RyzenAdj
+
+
+
+#PROTON VERSION
+Proton GE latest or proton beta 
+
+
+
+#PROTON LAUNCH OPTIONS
+
+// Use fsr
+WINE_FULLSCREEN_FSR=1
+
+// Set fsr strenght
+WINE_FULLSCREEN_STR= integer number from 1 to 5
+
+
+
+#AMDVLK or RADV
+radv is able to use ACO and NGGC
+
+
+
+# SEPARATE GRAPHIC SERVER FOR GAME WINDOW (arch wiki)
+
+
+
+#ENVIRONMENTAL VARIABLES that may provide an fps boost
+
+// AMD
+RADV_PERFTEST=aco  // this is default from mesa version 20 
+RADV_PERFTEST=nggc 
+
+
