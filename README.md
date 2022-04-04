@@ -6,27 +6,26 @@ A collection of tweaks and softwares which provide better performance and better
 ____________________________________________________________________________________________________
 # GAMESCOPE
 
-INFO
+  INFO
 
-On ubuntu:
-  sudo add-apt-repository ppa:ar-lex/gamescope
-  sudo apt-get update
-  sudo apt install gamescope
+    On ubuntu:
+      sudo add-apt-repository ppa:ar-lex/gamescope
+    sudo apt-get update
+    sudo apt install gamescope
 
-Gamescope allows to find the best performance/quality ratio:
-- Fsr
-- Integer upscaling
-- Fps limiter
+  Gamescope allows to find the best performance/quality ratio:
+    - Fsr
+    - Integer upscaling
+    - Fps limiter
 
 
 ____________________________________________________________________________________________________
 # KERNEL
 
-INFO
-- Low latency kernel: Can improve input lag 
-
-- Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
-* You can also check if Esync is enabled with 'ulimit -Hn' command, if this returns more than 500,000 than ESYNC IS ENABLED! otherwise follow https://www.christitus.com/ultimate-linux-gaming-guide/ 
+  INFO
+    - Low latency kernel: Can improve input lag 
+    - Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
+    * You can also check if Esync is enabled with 'ulimit -Hn' command, if this returns more than 500,000 than ESYNC IS ENABLED! otherwise follow https://www.christitus.com/ultimate-linux-gaming-guide/ 
 
 - Cpu scheduler: There are cpu schedulers which can boost fps like PDS
 
