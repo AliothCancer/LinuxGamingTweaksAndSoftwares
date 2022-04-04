@@ -22,10 +22,13 @@ ________________________________________________________________________________
 
 TWEAKS
 - Low latency kernel: Can improve input lag 
-- Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
-- Cpu scheduler: There are cpu scheduler which can boost fps like PDS
 
-*You can easily compile a kernel following https://github.com/Frogging-Family/linux-tkg readme
+- Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
+* You can also check if Esync is enabled with 'ulimit -Hn' command, if this returns more than 500,000 than ESYNC IS ENABLED!
+
+- Cpu scheduler: There are cpu schedulers which can boost fps like PDS
+
+*You can easily compile a kernel with a cpu-scheduler of your choice following https://github.com/Frogging-Family/linux-tkg readme
 
 
 SOFTWARES
@@ -35,7 +38,7 @@ SOFTWARES
 ____________________________________________________________________________________________________
 # MESA VERSION
 
-Latest version on newer hardware
+- ... 
 
 
 ____________________________________________________________________________________________________
@@ -71,7 +74,7 @@ ________________________________________________________________________________
 *radv is able to use ACO and NGGC
 
 
-TWEAKS
+TWEAKS for radv
 
 RADV_PERFTEST=aco
 *this is default from mesa version 20+
