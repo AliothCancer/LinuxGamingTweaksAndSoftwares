@@ -1,34 +1,47 @@
-#GAMESCOPE
-Fsr
-Integer upscaling
-Fps limiter
+____________________________________________________________________________________________________
+#GAMESCOPE 
+As far as i know there are two generic ways to get it:
+  - Flatpak: You need steam flatpak version (it is very bad if you have game on external drives)
+  - Compiling it from source: It's not simple, you have to solve dependencies on your own.
+*On arch linux there's the AUR package which compile it automaticallly ( i've never tried it )
+
+Gamescope allows to find the best performance/quality ratio:
+- Fsr
+- Integer upscaling
+- Fps limiter
 
 
-
+____________________________________________________________________________________________________
 #KERNEL
-Latest stable version
-Low latency kernel 
-Fsync patches
-Best gaming scheduler PDS,CFS,MuQss etc...
+
+TWEAKS
+Kernel can improve performance:
+- Low latency kernel: Can improve input lag 
+- Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
+- Cpu scheduler: There are cpu scheduler which can boost fps like PDS
+*You can easily compile a kernel following https://github.com/Frogging-Family/linux-tkg readme
 
 
+SOFTWARES
+...
 
+____________________________________________________________________________________________________
 #MESA VERSION
 Latest version on newer hardware
 
 
-
+____________________________________________________________________________________________________
 #TDP
 Bios settings
 RyzenAdj
 
 
-
+____________________________________________________________________________________________________
 #PROTON VERSION
 Proton GE latest or proton beta 
 
 
-
+____________________________________________________________________________________________________
 #PROTON LAUNCH OPTIONS
 
 // Use fsr
@@ -38,16 +51,16 @@ WINE_FULLSCREEN_FSR=1
 WINE_FULLSCREEN_STR= integer number from 1 to 5
 
 
-
+____________________________________________________________________________________________________
 #AMDVLK or RADV
 radv is able to use ACO and NGGC
 
 
-
+____________________________________________________________________________________________________
 # SEPARATE GRAPHIC SERVER FOR GAME WINDOW (arch wiki)
 
 
-
+____________________________________________________________________________________________________
 #ENVIRONMENTAL VARIABLES that may provide an fps boost
 
 // AMD
