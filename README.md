@@ -1,4 +1,4 @@
-# LinuxGamingTweaksAndTools
+# LinuxGamingTweaksAndSoftwares
 A collection of tweaks and softwares which provide better performance and better playability on GNU / Linux platform.
 
 
