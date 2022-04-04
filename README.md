@@ -26,7 +26,7 @@ INFO
 - Low latency kernel: Can improve input lag 
 
 - Fsync patches: Kernel above 5.16 is compatible with F-sync out of the box (https://linux-gaming.kwindu.eu/index.php?title=Improving_performance)
-* You can also check if Esync is enabled with 'ulimit -Hn' command, if this returns more than 500,000 than ESYNC IS ENABLED!
+* You can also check if Esync is enabled with 'ulimit -Hn' command, if this returns more than 500,000 than ESYNC IS ENABLED! otherwise follow https://www.christitus.com/ultimate-linux-gaming-guide/ 
 
 - Cpu scheduler: There are cpu schedulers which can boost fps like PDS
 
